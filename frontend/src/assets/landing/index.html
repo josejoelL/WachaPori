@@ -3,68 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo sobre el Cubo Rubik</title>
-    <link rel="stylesheet" href="style.css">
+    <title>WachaPori - Landing Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external stylesheet -->
 </head>
 <body>
+    <!-- Header section with logo and navigation menu -->
+    <header>
+        <div class="logo">
+            <img src="/assets/logo.png" alt="WachaPori Logo"> <!-- Logo image -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#tipos">Tipos de Cubos</a></li>
+                <li><a href="#metodos">Métodos</a></li>
+                <li><a href="#consejos">Consejos</a></li>
+                <li><a href="#tienda">Tienda</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <a href="#cart" class="cart-icon">
+                <img src="/assets/cart.png" alt="Carrito de Compras"> <!-- Shopping cart icon -->
+                <span class="item-count">0</span> <!-- Item counter -->
+            </a>
+            <a href="#login" class="login-icon">
+                <img src="/assets/login.png" alt="Inicio de Sesión"> <!-- User login icon -->
+            </a>
+            <button class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button> <!-- Hamburger menu for mobile -->
+        </div>
+    </header>
 
-<header>
-    <h1>Todo sobre el Cubo Rubik</h1>
-    <nav>
-        <ul>
-            <li><a href="#historia">Historia</a></li>
-            <li><a href="#tipos">Tipos</a></li>
-            <li><a href="#metodos">Métodos de Resolución</a></li>
-            <li><a href="#consejos">Consejos</a></li>
-            <li><a href="#productos">Productos</a></li>
-        </ul>
-    </nav>
-</header>
+    <!-- Hero section -->
+    <section class="hero">
+        <h1>Bienvenido a WachaPori</h1>
+        <p>Explora nuestros cubos y productos especializados.</p>
+        <a href="#tienda" class="cta-button">¡Comienza a comprar!</a>
+    </section>
 
-<section id="historia">
-    <h2>Historia del Cubo Rubik</h2>
-    <p>El Cubo Rubik fue inventado en 1974 por Ernő Rubik, un arquitecto húngaro. Originalmente se llamó "Cubo Mágico" y fue diseñado como una herramienta pedagógica para ayudar a sus estudiantes a entender las tres dimensiones.</p>
-</section>
+    <!-- Products grid section -->
+    <section class="products-grid">
+        <h2>Productos Destacados</h2>
+        <div class="product-container">
+            <div class="product-item"> <!-- Individual product item -->
+                <h3>Cubo 3x3</h3>
+                <img src="/assets/cube3x3.png" alt="Cubo 3x3">
+                <p>Descripción del producto.</p>
+            </div>
+            <div class="product-item">
+                <h3>Lubricante</h3>
+                <img src="/assets/lubricant.png" alt="Lubricante">
+                <p>Descripción del producto.</p>
+            </div>
+            <div class="product-item">
+                <h3>Libro de Estrategias</h3>
+                <img src="/assets/book.png" alt="Libro de Estrategias">
+                <p>Descripción del producto.</p>
+            </div>
+            <div class="product-item">
+                <h3>Cubo 4x4</h3>
+                <img src="/assets/cube4x4.png" alt="Cubo 4x4">
+                <p>Descripción del producto.</p>
+            </div>
+            <div class="product-item">
+                <h3>Cubo 2x2</h3>
+                <img src="/assets/cube2x2.png" alt="Cubo 2x2">
+                <p>Descripción del producto.</p>
+            </div>
+            <div class="product-item">
+                <h3>Estuche</h3>
+                <img src="/assets/case.png" alt="Estuche">
+                <p>Descripción del producto.</p>
+            </div>
+        </div>
+    </section>
 
-<section id="tipos">
-    <h2>Tipos de Cubos Rubik</h2>
-    <ul>
-        <li>Cubo 2x2</li>
-        <li>Cubo 3x3</li>
-        <li>Cubo 4x4 (Cubo Rubik Revenge)</li>
-        <li>Cubo 5x5 (Cubo Rubik Professor)</li>
-        <li>Cubo Pyraminx</li>
-    </ul>
-</section>
-
-<section id="metodos">
-    <h2>Métodos de Resolución</h2>
-    <p>Existen varios métodos para resolver el Cubo Rubik, incluyendo:</p>
-    <ul>
-        <li>Método de la Capa por Capa (Layer by Layer)</li>
-        <li>Método de Fridrich</li>
-        <li>Método Roux</li>
-    </ul>
-</section>
-
-<section id="consejos">
-    <h2>Consejos para Resolver el Cubo</h2>
-    <p>Práctica, práctica y más práctica. Familiarízate con los algoritmos y resuelve el cubo regularmente para mejorar tu velocidad y precisión.</p>
-</section>
-
-<section id="productos">
-    <h2>Productos Relacionados</h2>
-    <ul>
-        <li><a href="#">Cubo Rubik 3x3 - Clásico</a></li>
-        <li><a href="#">Lubricante para Cubos</a></li>
-        <li><a href="#">Libro de Estrategias para resolver el Cubo Rubik</a></li>
-    </ul>
-</section>
-
-<footer>
-    <p>&copy; 2026 Todo sobre el Cubo Rubik</p>
-</footer>
-
-<script src="script.js"></script>
+    <!-- Footer section can be added here -->
+    <footer>
+        <p>&copy; 2026 WachaPori. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
